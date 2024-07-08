@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -12,25 +12,26 @@
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings:
-      "wdth" 100;
-  }
+        "wdth" 100;
+}
 
-  .text-primary{
+.text-primary {
     color: #FD6E0A;
-  }
+}
 
-  .dark-1{
+.dark-1 {
     color: #181818;
-  }
-  .dark-2{
+}
+
+.dark-2 {
     color: #474747;
-  }
+}
 
-  .dark-3{
+.dark-3 {
     color: #757575;
-  }
+}
 
-  .primary-btn{
+.primary-btn {
     background-color: #FD6E0A;
     padding: 27px 79px;
     color: white;
@@ -38,236 +39,300 @@
     border: none;
     font-size: 20px;
     font-weight: bold;
-  }
+    cursor: pointer;
+}
 
-  .section-title{
+.section-title {
     color: #181818;
     font-size: 35px;
     font-weight: bold;
     text-align: center;
-  }
+}
 
-  .section-description{
+.section-description {
     font-size: 18px;
     line-height: 30px;
     color: #757575;
     text-align: center;
-  }
+}
 
-  /* Nav start here  */
+/* Nav start here  */
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 55px 200px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
-.nav-title{
+.nav-title {
     font-size: 36px;
     font-weight: 800;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
     margin-right: 51px;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
-    
+
 }
 
 /* banner style  */
 
-header{
+header {
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: center left, bottom right;
     background-color: #FFF8F3;
 }
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.banner-content{
+
+.banner-content {
     max-width: 580px;
 
 }
 
-.banner-content .greeting-title{
+.banner-content .greeting-title {
     font-size: 45px;
     font-weight: 600;
 }
 
-.banner-content .main-title{
+.banner-content .main-title {
     font-size: 85px;
     font-weight: bold;
     line-height: 140px;
 }
 
-.banner-content .banner-description{
+.banner-content .banner-description {
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 30px;
 }
 
-.banner-pic{
+.banner-pic {
     width: 580px;
 }
 
-.banner-pic img{
+.banner-pic img {
     vertical-align: bottom;
 }
 
 /* about-section style  */
 
 
-main section{
+main section {
     margin: 130px auto;
     padding: 0 230PX;
 }
 
-.about-section{
+.about-section {
     max-width: 1140px;
     background-color: #FFF8F3;
     padding: 130px 150px;
-    
+
 }
 
-.about-section .section-title{
+.about-section .section-title {
     margin-bottom: 30px;
 }
 
-.about-section .section-description{
+.about-section .section-description {
     text-align: center;
-    margin-bottom: 30px ;
+    margin-bottom: 30px;
 }
 
-.about-section .about-items{
+.about-section .about-items {
     display: flex;
     justify-content: space-around;
 }
 
-.about-section .about-items .about-item{
+.about-section .about-items .about-item {
     text-align: center;
 }
 
-.about-section .about-items .about-item .item-title{
+.about-section .about-items .about-item .item-title {
     color: #757575;
     font-size: 20px;
     line-height: 30px;
     font-weight: 400;
 }
 
-.about-section .about-items .about-item .item-description{
+.about-section .about-items .about-item .item-description {
     color: #474747;
     font-size: 20px;
     line-height: 30px;
     font-weight: bold;
-  
+
 }
 
 /* skill section start here  */
 
-.skill-section .section-description{
+.skill-section .section-description {
     max-width: 990px;
     margin: 0 auto;
 }
 
-.skill-section .section-title{
+.skill-section .section-title {
     margin-bottom: 30px;
 }
 
-.skill-section .section-description{
+.skill-section .section-description {
     margin-bottom: 50px;
 }
 
-.skill-section .skills-container{
+.skill-section .skills-container {
     display: flex;
     justify-content: space-between;
     gap: 24px;
 }
 
-.skill-section .skills-container .skill{
+.skill-section .skills-container .skill {
     padding: 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
 }
 
-.skill-section .skills-container .skill .skill-title{
+.skill-section .skills-container .skill .skill-title {
     margin-top: 30px;
     margin-bottom: 20px;
-    font-size: 20px ;
+    font-size: 20px;
     font-weight: bold;
     color: #181818;
 }
 
-.skill-section .skills-container .skill .skill-description{
+.skill-section .skills-container .skill .skill-description {
     font-size: 16px;
     line-height: 28px;
     color: #757575;
 }
 
 /* resume section style  */
-.resume-section .resume-title{
+.resume-section .resume-title {
     margin-bottom: 113px;
 }
 
-.resume-section .resume-columns{
+.resume-section .resume-columns {
     display: flex;
     gap: 70px;
     justify-content: space-between;
-    
+
 }
 
-.resume-section .resume-columns .resume-education-column-title, .resume-section .resume-columns .resume-experience-column-title{
+.resume-section .resume-columns .resume-education-column-title,
+.resume-section .resume-columns .resume-experience-column-title {
     font-size: 30px;
     font-weight: bold;
     color: #474747;
 }
-.resume-section .resume-columns .resume-my-education-details .eduction-title, .resume-section .resume-columns .resume-my-experience-details .experience-title{
-   font-size: 25px;
-   font-weight: bold;
-   color: #474747;
-   margin-bottom: 10px;
-}
 
-.resume-section .resume-columns .resume-my-education-details .eduction-title, .resume-section .resume-columns .resume-my-experience-details .experience-title{
+.resume-section .resume-columns .resume-my-education-details .eduction-title,
+.resume-section .resume-columns .resume-my-experience-details .experience-title {
     font-size: 25px;
     font-weight: bold;
     color: #474747;
     margin-bottom: 10px;
- }
- .resume-section .resume-columns .resume-my-education-details, .resume-section .resume-columns .resume-my-experience-details{
-    margin: 30px 0;
- }
+}
 
- .resume-section .resume-columns .resume-my-education-details .univercity-name-duration, .resume-section .resume-columns .resume-my-experience-details .company-name-duration{
+.resume-section .resume-columns .resume-my-education-details .eduction-title,
+.resume-section .resume-columns .resume-my-experience-details .experience-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume-section .resume-columns .resume-my-education-details,
+.resume-section .resume-columns .resume-my-experience-details {
+    margin: 30px 0;
+}
+
+.resume-section .resume-columns .resume-my-education-details .univercity-name-duration,
+.resume-section .resume-columns .resume-my-experience-details .company-name-duration {
     font-size: 20px;
     font-weight: 600;
     color: #757575;
     margin-bottom: 20px;
- }
+}
 
- .resume-my-education-details .education-description , .resume-my-experience-details .experience-description{
+.resume-my-education-details .education-description,
+.resume-my-experience-details .experience-description {
     font-size: 16px;
     line-height: 28px;
     color: #757575;
- }
+}
+
+.resume-section .resume-download-btn {
+    text-align: center;
+}
+
+
+/* footer section start  */
 
 
 
 
+.footer-section {
+    padding: 130px 230px;
+    margin: 0 auto;
+    background-color: #FFF8F3;
+}
 
 
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
 
+.footer-container .footer-column {
+
+    max-width: 45%;
+
+}
+
+.footer-column-title {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+    .footer-section .social-link{
+        margin-top: 30px;
+    }
+
+    .footer-section .social-link a{
+        margin-right: 15px;
+    }
+
+    
+        .footer-section form{
+            display: block;
+        }
+
+        .footer-section form .name-input, .email-input, textarea{
+            color: #757575;
+            font-size: 16px;
+            line-height: 28px;
+            padding: 10px 20px;
+            margin-bottom: 15px;
+            width: 100%;
+            background-color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    
+
+            
