@@ -51,6 +51,7 @@
     font-size: 18px;
     line-height: 30px;
     color: #757575;
+    text-align: center;
   }
 
   /* Nav start here  */
@@ -130,12 +131,17 @@ header{
 
 /* about-section style  */
 
+
+main section{
+    margin: 130px auto;
+    padding: 0 230PX;
+}
+
 .about-section{
     max-width: 1140px;
     background-color: #FFF8F3;
     padding: 130px 150px;
-    margin: 0 auto;
-    margin-top: 130px;
+    
 }
 
 .about-section .section-title{
@@ -170,4 +176,98 @@ header{
     font-weight: bold;
   
 }
+
+/* skill section start here  */
+
+.skill-section .section-description{
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+.skill-section .section-title{
+    margin-bottom: 30px;
+}
+
+.skill-section .section-description{
+    margin-bottom: 50px;
+}
+
+.skill-section .skills-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.skill-section .skills-container .skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.skill-section .skills-container .skill .skill-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px ;
+    font-weight: bold;
+    color: #181818;
+}
+
+.skill-section .skills-container .skill .skill-description{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+/* resume section style  */
+.resume-section .resume-title{
+    margin-bottom: 113px;
+}
+
+.resume-section .resume-columns{
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+    
+}
+
+.resume-section .resume-columns .resume-education-column-title, .resume-section .resume-columns .resume-experience-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.resume-section .resume-columns .resume-my-education-details .eduction-title, .resume-section .resume-columns .resume-my-experience-details .experience-title{
+   font-size: 25px;
+   font-weight: bold;
+   color: #474747;
+   margin-bottom: 10px;
+}
+
+.resume-section .resume-columns .resume-my-education-details .eduction-title, .resume-section .resume-columns .resume-my-experience-details .experience-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+ }
+ .resume-section .resume-columns .resume-my-education-details, .resume-section .resume-columns .resume-my-experience-details{
+    margin: 30px 0;
+ }
+
+ .resume-section .resume-columns .resume-my-education-details .univercity-name-duration, .resume-section .resume-columns .resume-my-experience-details .company-name-duration{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+ }
+
+ .resume-my-education-details .education-description , .resume-my-experience-details .experience-description{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+ }
+
+
+
+
+
+
 
